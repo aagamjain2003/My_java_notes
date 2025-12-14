@@ -1,0 +1,434 @@
+﻿PROGRAMMING LANGUAGE – HINGLISH NOTES
+
+
+WHAT IS A PROGRAMMING LANGUAGE?
+
+
+Programming language ek special language hoti hai jisse hum computer ko instructions dete hain.
+Hum insaan Hindi ya English samajhte hain, lekin computer sirf 0 aur 1 (binary) samajhta hai.
+Direct binary me likhna bahut mushkil hota hai, isliye hum C, Java, Python, JavaScript jaise programming languages use karte hain.
+Ye languages human-readable hoti hain aur baad me computer inhe machine code me convert karke execute karta hai.
+
+
+Real-life example:
+Jaise boss worker ko simple language me kaam samjhata hai, waise hi programming language computer ko kaam batati hai.
+
+
+
+
+---
+
+
+TYPES OF PROGRAMMING LANGUAGES
+
+
+1. LOW-LEVEL LANGUAGES
+
+
+
+
+
+
+Ye languages computer hardware ke bahut close hoti hain.
+Ye fast hoti hain, lekin humans ke liye samajhna mushkil hota hai.
+
+
+Real-life example:
+Factory machines ke direct technical instructions jo sirf engineers samajh pate hain.
+
+
+
+
+---
+
+
+2. HIGH-LEVEL LANGUAGES
+
+
+
+
+
+
+Ye languages humans ke liye easy hoti hain.
+Inhe compiler ya interpreter machine code me convert karta hai.
+
+
+Real-life example:
+Google Maps jisme tum sirf location likhte ho, complex calculation background me hota hai.
+
+
+
+
+---
+
+
+3. PROCEDURAL LANGUAGES
+
+
+
+
+
+
+Inme program step-by-step chalta hai.
+Program functions ya procedures ka collection hota hai.
+
+
+Real-life example:
+Cooking recipe jisme har step ek order me follow hota hai.
+
+
+
+
+---
+
+
+4. OBJECT-ORIENTED PROGRAMMING LANGUAGES
+
+
+
+
+
+
+Ye classes aur objects par based hoti hain.
+Real-world cheezon ko software me represent karti hain.
+
+
+Real-life example:
+Car ek object hai jisme color, speed properties hoti hain aur drive(), brake() methods hote hain.
+
+
+
+
+---
+
+
+5. FUNCTIONAL PROGRAMMING LANGUAGES
+
+
+
+
+
+
+Ye mathematical functions par based hoti hain.
+Focus hota hai kya karna hai, kaise karna hai nahi.
+
+
+Real-life example:
+Calculator ka add(5, 3) function jisme tum bas result chahte ho.
+
+
+
+
+---
+
+
+6. MARKUP LANGUAGES
+
+
+
+
+
+
+Ye logic ke liye nahi hoti, sirf structure aur formatting ke liye hoti hain.
+
+
+Examples: HTML, XML, JSON
+
+
+Real-life example:
+Newspaper ka layout jisme heading, image aur text ka structure hota hai.
+
+
+
+
+---
+
+
+7. DATABASE QUERY LANGUAGES
+
+
+
+
+
+
+Ye database ke saath interact karne ke liye use hoti hain.
+
+
+Real-life example:
+Library me librarian se bolna: “Is author ki books dikhao”.
+
+
+
+
+---
+
+
+STATICALLY TYPED LANGUAGE
+
+
+Static language me variable ka type compile time par fix hota hai.
+Type error program run hone se pehle mil jata hai.
+
+
+Example languages: Java, C, C++
+
+
+Real-life example:
+Train ticket jisme seat type pehle se fix hoti hai, baad me change nahi hoti.
+
+
+
+
+---
+
+
+DYNAMICALLY TYPED LANGUAGE
+
+
+Dynamic language me variable ka type runtime par decide hota hai.
+Variable ka type change ho sakta hai.
+
+
+Example languages: Python, JavaScript
+
+
+Real-life example:
+Freelancer jo aaj designer hai aur kal developer ban sakta hai.
+
+
+
+
+---
+
+
+STATIC VS DYNAMIC (REAL LIFE)
+
+
+Static languages:
+Large systems jaise banking software jaha safety important hoti hai.
+
+
+Dynamic languages:
+Startup projects jaha fast development chahiye.
+
+
+
+
+---
+
+
+WHAT IS JAVA?
+
+
+Java ek high-level, object-oriented aur platform-independent programming language hai.
+Isse James Gosling ne 1995 me develop kiya tha.
+
+
+Java ka use hota hai:
+Android apps, banking systems, enterprise software, cloud applications.
+
+
+Real-life example:
+Netflix jo har device aur OS par smoothly chalta hai.
+
+
+
+
+---
+
+
+JAVA EXECUTION PROCESS
+
+
+1. COMPILER (javac)
+
+
+
+
+
+
+Java source code ko bytecode me convert karta hai.
+
+
+Real-life example:
+Translator jo Hindi ko English me convert karta hai.
+
+
+
+
+---
+
+
+2. INTERPRETER
+
+
+
+
+
+
+Bytecode ko line by line execute karta hai.
+
+
+Real-life example:
+Teacher jo ek-ek line padhkar samjhata hai.
+
+
+
+
+---
+
+
+3. JIT (JUST IN TIME COMPILER)
+
+
+
+
+
+
+Frequently use hone wale code ko fast machine code me convert karta hai.
+
+
+Real-life example:
+Daily office route jo tumhe yaad ho jata hai.
+
+
+
+
+---
+
+
+4. JVM (JAVA VIRTUAL MACHINE)
+
+
+
+
+
+
+Java ka main engine hai.
+Execution, memory management aur security handle karta hai.
+
+
+Real-life example:
+Car ka engine jiske bina car chal hi nahi sakti.
+
+
+
+
+---
+
+
+5. JRE (JAVA RUNTIME ENVIRONMENT)
+
+
+
+
+
+
+Sirf Java program run karne ke liye hota hai.
+
+
+Real-life example:
+Cinema hall jaha movie dekhi jaati hai.
+
+
+
+
+---
+
+
+6. JDK (JAVA DEVELOPMENT KIT)
+
+
+
+
+
+
+Java program develop aur run dono karne ke liye hota hai.
+
+
+Real-life example:
+Kitchen jaha cooking bhi hoti hai aur tools bhi hote hain.
+
+
+
+
+---
+
+
+MEMORY IN JAVA
+
+
+STACK MEMORY
+
+
+Local variables aur method calls store hoti hain.
+Fast hoti hai aur automatic clear ho jaati hai.
+
+
+Real-life example:
+Rough notebook jisme temporary kaam likhte ho.
+
+
+
+
+---
+
+
+HEAP MEMORY
+
+
+Objects aur arrays yaha store hote hain.
+Large hoti hai aur garbage collector manage karta hai.
+
+
+Real-life example:
+Warehouse jaha saman rakha hota hai.
+
+
+
+
+---
+
+
+GARBAGE COLLECTOR
+
+
+Unused objects ko heap memory se delete karta hai.
+
+
+Real-life example:
+Garbage truck jo kachra utha le jaata hai.
+
+
+
+
+---
+
+
+DATA TYPES IN JAVA
+
+
+PRIMITIVE DATA TYPES
+
+
+Basic data types jaise int, char, boolean, float.
+
+
+Real-life example:
+Age = 21
+Gender = Male
+
+
+
+
+---
+
+
+NON-PRIMITIVE DATA TYPES
+
+
+Complex data types jaise String, Array, Object.
+
+
+Real-life example:
+Student record jisme name, marks aur roll number hota hai.
